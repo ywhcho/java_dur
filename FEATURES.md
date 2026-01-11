@@ -384,7 +384,7 @@ CREATE TABLE medicine (
 
 ### Database
 - **MySQL**: 8.0
-- **JDBC Driver**: mysql-connector-java 8.0.33
+- **JDBC Driver**: mysql-connector-j 8.3.0 (patched security vulnerabilities)
 
 ### Security
 - **Password Hashing**: jBCrypt 0.4
