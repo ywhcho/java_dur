@@ -2,6 +2,14 @@
 
 이 프로젝트는 기본적인 개발/학습용 구현입니다. 프로덕션 환경에 배포하기 전에 다음 보안 사항들을 개선해야 합니다.
 
+## 최근 보안 업데이트
+
+### ✅ MySQL Connector 보안 취약점 수정 (2026-01-11)
+- **이전 버전**: mysql:mysql-connector-java 8.0.33 (취약점 있음)
+- **현재 버전**: com.mysql:mysql-connector-j 8.2.0 (패치됨)
+- **수정 내용**: MySQL Connectors takeover vulnerability 해결
+- **상태**: ✅ 해결됨
+
 ## 현재 구현의 보안 제한사항
 
 ### 1. 비밀번호 관리
